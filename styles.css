@@ -25,13 +25,7 @@ html {
   background-color: var(--bg-color);
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-/*Custom Scrollbar Styling */
+/* Enhancement 1: Custom Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -77,7 +71,7 @@ nav a {
   transition: var(--transition);
 }
 
-/*Interactive Hover Effects & Active States */
+/* Enhancement 2: Interactive Hover Effects & Active States */
 nav a:hover,
 nav a.active {
   background-color: var(--primary-color);
@@ -85,7 +79,7 @@ nav a.active {
 }
 
 /* ==========================================================================
-   3. HERO SECTION (Animated Gradient)
+   3. HERO SECTION (Enhancement 3: Animated Gradient)
    ========================================================================== */
 .hero {
   text-align: center;
@@ -166,7 +160,7 @@ main {
   transition: var(--transition);
 }
 
-/*Hover Elevation Effects */
+/* Enhancement 4: Hover Elevation Effects */
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -190,18 +184,6 @@ main {
 /* ==========================================================================
    6. CONTACT FORM (Styled Controls)
    ========================================================================== */
-/* Form container layout */
-.contact-page-container {
-  max-width: 800px; 
-  width: 100%;
-  margin: 0 auto;
-}
-
-.contact-page-container .content-section {
-  width: 100%;
-  padding: 2.5rem; /* Adds generous internal padding */
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -220,7 +202,6 @@ main {
 
 .form-group input,
 .form-group textarea {
-  width: 100%;
   padding: 0.75rem;
   border: 1px solid #cbd5e1;
   border-radius: var(--border-radius);
