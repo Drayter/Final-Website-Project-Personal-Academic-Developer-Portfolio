@@ -25,11 +25,11 @@ html {
   background-color: var(--bg-color);
 }
 
-/*body {
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}*/
+}
 
 /* Custom Scrollbar Styling */
 ::-webkit-scrollbar {
