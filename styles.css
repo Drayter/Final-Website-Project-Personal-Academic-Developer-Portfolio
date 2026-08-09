@@ -192,8 +192,14 @@ main {
    ========================================================================== */
 /* Form container layout */
 .contact-page-container {
-  max-width: 650px;
+  max-width: 800px; 
+  width: 100%;
   margin: 0 auto;
+}
+
+.contact-page-container .content-section {
+  width: 100%;
+  padding: 2.5rem; /* Adds generous internal padding */
 }
 
 .contact-form {
